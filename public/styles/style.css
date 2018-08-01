@@ -14,6 +14,12 @@ img {
 
 .main {
   padding-top: 105px; }
+  .main ol.breadcrumb {
+    padding-left: 0;
+    margin: 10px 0;
+    font-size: 16px; }
+    .main ol.breadcrumb a {
+      color: #333; }
 
 .loadmore {
   display: inline-block;
@@ -209,5 +215,18 @@ footer {
     padding: 15px 0; }
     footer .footer__bottom p {
       margin-bottom: 5px; }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    position: relative; }
+
+  .logo {
+    width: 150px; }
+
+  .cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right; } }
 
 /*# sourceMappingURL=style.css.map */
