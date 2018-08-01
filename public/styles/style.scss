@@ -223,6 +223,7 @@ $linkcolor2: rgba(0,0,0,.54);
         }
         p{
             padding: 7px 10px;
+            padding-bottom: 0;
             font-size: 14px;
             margin-bottom: 0;
         }
@@ -230,6 +231,12 @@ $linkcolor2: rgba(0,0,0,.54);
     .item__foot{
         text-align: right;
         padding: 10px;
+        padding-top: 0;
+        .place{
+            i{
+                font-size: 16px;
+            }
+        }
         i{
             color: #f50;
             font-size: 10px;
