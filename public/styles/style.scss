@@ -297,3 +297,54 @@ footer{
         text-align: right;
     }
 }
+.profile{
+    .profile__information{
+        min-height: 100px;
+        background-color: #fff;
+        padding-top: 25px;
+        font-size: 25px;
+        position: relative;
+        .profile__address{
+            font-size: 16px;
+        }
+        .rate{
+            color: #f60;
+            font-size: 14px;
+            span{
+                color: #333;
+                font-size: 14px;
+            }
+        }
+        .profile__avatar{
+            width: 150px;
+            height: 150px;
+            display: inline-block;
+            margin-bottom: -75px;
+            margin-left: 50px;
+            border: 2px solid #4889a9;
+            padding: 2px;
+            background: #fff;
+        }
+    }
+    .profile__description{
+        min-height: 100px;
+        color: #FFF;
+        background-color: $maincolor;
+        p{
+            padding-left: 220px;
+            padding-top: 15px;
+        }
+    }
+    .card{
+        li{
+            color: $maincolor;
+            font-weight: bold;
+            i{
+                font-size: 18px;
+            }
+            span{
+                color: #333;
+            }
+        }
+    }
+}
